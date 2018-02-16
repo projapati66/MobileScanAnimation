@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="19.9px" height="19.9px" viewBox="0 0 19.9 19.9" style="enable-background:new 0 0 19.9 19.9;" xml:space="preserve">
+<font horiz-adv-x="2048">
+<!-- Data copyright (C) URW Software &amp; Type GmbH, additional data copyright (C) The Monotype Corporation. Copyright (C) 1994-2002 Microsoft Corporation. All rights reserved. -->
+<!-- Copyright: Copyright 2018 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Broadway" units-per-em="2048" underline-position="-292" underline-thickness="100"/>
+<missing-glyph horiz-adv-x="512" d="M51,0l0,1365l410,0l0,-1365M410,51l0,1263l-308,0l0,-1263z"/>
+<glyph unicode="S" horiz-adv-x="1223" d="M103,232C115,232 129,223 145,205C195,150 256,107 329,74C401,41 472,24 543,24C621,24 660,48 660,95C660,125 646,159 619,197C592,234 526,309 423,420C293,561 206,665 163,733C106,823 77,909 77,990C77,1113 132,1213 241,1291C348,1368 481,1406 638,1406C748,1406 849,1384 941,1339C976,1322 1006,1302 1031,1279C1056,1256 1068,1237 1068,1222C1068,1215 1065,1208 1058,1202C1051,1195 1043,1192 1036,1192C1025,1192 1008,1202 986,1223C950,1257 903,1285 844,1308C785,1330 729,1341 675,1341C642,1341 615,1334 594,1320C573,1305 562,1287 562,1264C562,1237 575,1203 601,1164C627,1125 671,1072 733,1007C929,798 1049,658 1093,585C1139,508 1162,434 1162,363C1162,302 1146,245 1113,191C1080,137 1035,93 977,58C866,-8 731,-41 572,-41C425,-41 296,-3 185,73C107,126 68,168 68,198C68,207 72,215 79,222C86,229 94,232 103,232z"/>
+</font>
+
+	<g>
+	<path style="fill:#CFCECE;" d="M19.9,16.9c0,1.6-1.4,3-3,3H3c-1.6,0-3-1.4-3-3V3c0-1.6,1.4-3,3-3h13.9c1.6,0,3,1.4,3,3V16.9z"/>
+</g>
+<text transform="matrix(1 0 0 1 4.6772 15.2002)" style="fill:#8C8C8C; font-family:'Broadway'; font-size:17.7274;">S</text>
+</svg>

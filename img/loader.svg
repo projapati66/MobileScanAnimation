@@ -1,0 +1,4 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="160" height="160" viewBox="0 0 160 160" xml:space="preserve" enable-background="new 0 0 160 160">
+  <circle id="loader-path" cx="80" cy="80" r="75" style="fill:none;stroke-miterlimit:10;stroke:#BCBCBC"/>
+  <circle id="loader" cx="80" cy="80" r="75" style="fill:none;stroke-miterlimit:10;stroke:#000"/>
+</svg>

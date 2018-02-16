@@ -1,0 +1,118 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Mobile Scan Animation | DesignTheWay</title>
+<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link href="https://fonts.googleapis.com/css?family=Prompt:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<svg class="hidden">
+  <symbol id="icon-arrow" viewBox="0 0 24 24">
+    <title>arrow</title>
+    <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+  </symbol>
+</svg>
+<div class="playground-header">
+  <div class="playground-links">
+    <a class="playground-icons" href="http://www.designtheway.com/?p=1171" title="Back to the article">
+      <svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg>
+    </a>
+  </div>
+  <h1>Mobile Scan Animation</h1>
+</div> 
+
+<div class="phone">
+  <div class="phone-screen">
+    <div class="status-bar">
+      <div class="menu"><a href="#" class="back">Menu</a></div>
+      <p class="status-text">Mobile Scan</p>
+    </div>
+    <div class="slide slide1">
+      <div id="scan" class="scan-container">
+        <div class="scan-button"><a href="#">Scan</a></div>
+      </div>
+      <div class="info-text">Clean your phone!</div>
+    </div>
+    <div class="slide slide2">
+      <div class="progress-container">
+        <div class="progress">
+          <div class="loader">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="160" height="160" viewBox="0 0 160 160" xml:space="preserve" enable-background="new 0 0 160 160">
+              <circle id="loader-path" cx="80" cy="80" r="75" style="fill:none;stroke-miterlimit:10;stroke:#b6b7b8;stroke-width:1.5px"/>
+              <circle id="loader" cx="80" cy="80" r="75" style="fill:none;stroke-miterlimit:10;stroke:#2196f3;stroke-width:1.5px"/>
+            </svg>
+            <div class="blinking-circle"></div>
+          </div>
+          <div class="progress-text clip"><span id="progress-value">0</span>MB<br>Found</div>
+          <div class="progress-text white clip"><span id="progress-value-2">0</span>MB<br>Found</div>
+        </div>
+        <div class="wave-container">
+          <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+        </div>
+      </div>
+      <div class="scanning">Scanning</div>
+    </div>
+    <div class="slide slide3">
+      <div class="status-bar">
+        <div class="menu"><a href="#" class="back">Menu</a></div>
+        <p>Suggested Cleaning</p>
+      </div>
+      <div class="suggested-container">
+        <div class="cleanable-amount"><span id="reverse-value">100</span>MB<br>Cleanable</div>
+        <div class="suggested-files">
+          <ul>
+            <li>
+              <div class="junk-type">System Junk</div>
+              <div class="amount">15MB</div>
+            </li>
+            <li>
+              <div class="junk-type">App Junk</div>
+              <div class="amount">35MB</div>
+            </li>
+            <li>
+              <div class="junk-type">Ad's Junk</div>
+              <div class="amount">10MB</div>
+            </li>
+            <li>
+              <div class="junk-type">Game Junk</div>
+              <div class="amount">25MB</div>
+            </li>
+            <li>
+              <div class="junk-type">Residual Waste</div>
+              <div class="amount">15MB</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clean-button"><a href="#">Clean</a></div>
+    </div>
+    <div class="slide slide4">
+      <div id="finish" class="scan-container last">
+        <div class="finish-button"><a href="#">Finish</a></div>
+      </div>
+      <div class="final-text"><div><span id="total-cleaned">100</span>MB</div> Cleaned</div>
+    </div>
+  </div>
+</div>  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/TextPlugin.min.js"></script>
+<script src="js/main.js"></script> 
+
+</body>
+</html>
